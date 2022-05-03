@@ -2,18 +2,9 @@ import "./App.css";
 import React from "react";
 import Post from "./Post";
 import Avatar from "@mui/material/Avatar";
-import { useEffect, useState } from "react";
 import data from "./data";
 
 function App() {
-  // console.log(data[0].posts);
-
-  // const [data, setData] = useState([]);
-
-  // useEffect(() => {
-
-  // })
-
   return (
     <div className="app">
       <div className="app__posts">
